@@ -1,0 +1,22 @@
+{
+  "name": "list",
+  "plural": "lists",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "item": {
+      "type": "string"
+    },
+    "purchased": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
